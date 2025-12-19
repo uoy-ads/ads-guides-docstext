@@ -1,0 +1,37 @@
+## See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id:
+  banner: ads_logo.png
+  # thumbnail: only used in ext. website previews
+  title: "Documents and Digital Texts: A Guide to Good Practice"
+  # funding: 
+  keywords:
+    - jupyter-book
+    - archaeology
+  authors:
+    - name: Kieron Niven
+      affiliations: Archaeology Data Service
+      orcid: https://orcid.org/0000-0002-0537-9238
+  license: CC-BY-4.0
+  open_access: true
+  doi: https://doi.org/10.5284/b9fa-0259
+  github: https://github.com/uoy-ads/ads-guides-docstext
+  toc:
+    - file: index.md
+    - file: content/1-IntroductionToDocumentsAndTexts.md
+    - file: content/2-CreatingDocumentsAndTexts.md
+    - file: content/3-PreservingDocumentsAndTexts.md
+    - file: content/4-Bibliography.md
+  exports:
+    - format: pdf
+      article: 
+      output:
+site:
+  template: book-theme
+  options:
+    favicon: images/g2gp_signpost.png
+    logo: images/g2gp_signpost.png
+    logo_text: Guides to Good Practice
+  parts:
+    footer: footer.md
