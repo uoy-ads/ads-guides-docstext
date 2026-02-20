@@ -34,5 +34,6 @@ site:
     logo: images/g2gp_signpost.png
     logo_text: Guides to Good Practice
     logo_url: https://guides.archaeologydataservice.ac.uk/
+    style: ./custom.css
   parts:
     footer: footer.md
